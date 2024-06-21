@@ -285,7 +285,7 @@ SELECT * FROM KH_MEMBER;
 
 COMMIT;
 
--- 시퀀스 수정
+-- 시퀀스 수정.
 -- ALTER 이용해서 옵션들을 수정하면 됨
 ALTER SEQUENCE SEQ_MEMBER_ID
 -- START WITH 변경 불가 -> 삭제 후 다시 생성
